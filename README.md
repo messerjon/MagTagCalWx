@@ -52,7 +52,7 @@ circup install --auto
 Copy all project files to your MagTag's CIRCUITPY drive:
 ```bash
 cp code.py /Volumes/CIRCUITPY/
-cp icon_*.bmp /Volumes/CIRCUITPY/
+cp -r icons /Volumes/CIRCUITPY/
 ```
 
 ### 4. Configure Settings

@@ -153,17 +153,17 @@ def load_weather_icon(icon_type, x, y):
 
     # Map icon type to filename
     icon_files = {
-        "sun": "/icon_sun.bmp",
-        "cloud": "/icon_cloud.bmp",
-        "rain": "/icon_rain.bmp",
-        "snow": "/icon_snow.bmp",
-        "storm": "/icon_storm.bmp",
-        "fog": "/icon_fog.bmp",
-        "wind": "/icon_wind.bmp",
-        "unknown": "/icon_unknown.bmp",
+        "sun": "/icons/icon_sun.bmp",
+        "cloud": "/icons/icon_cloud.bmp",
+        "rain": "/icons/icon_rain.bmp",
+        "snow": "/icons/icon_snow.bmp",
+        "storm": "/icons/icon_storm.bmp",
+        "fog": "/icons/icon_fog.bmp",
+        "wind": "/icons/icon_wind.bmp",
+        "unknown": "/icons/icon_unknown.bmp",
     }
 
-    filename = icon_files.get(icon_type, "/icon_unknown.bmp")
+    filename = icon_files.get(icon_type, "/icons/icon_unknown.bmp")
 
     try:
         icon_bitmap, icon_palette = adafruit_imageload.load(
