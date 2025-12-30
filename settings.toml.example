@@ -1,0 +1,14 @@
+# CircuitPython settings file
+# Copy this file to settings.toml and fill in your values
+
+# WiFi credentials
+CIRCUITPY_WIFI_SSID = "your_wifi_network_name"
+CIRCUITPY_WIFI_PASSWORD = "your_wifi_password"
+
+# Location for weather (US locations only - uses weather.gov)
+# Find your coordinates at https://www.latlong.net/
+LATITUDE = "47.6062"
+LONGITUDE = "-122.3321"
+
+# Timezone offset from UTC (examples: PST=-8, MST=-7, CST=-6, EST=-5)
+# Note: Does not auto-adjust for daylight saving time

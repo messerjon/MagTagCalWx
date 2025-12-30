@@ -3,3 +3,12 @@
 
 # Ada Library Information
 *.ali
+
+# CircuitPython
+.fseventsd/
+.metadata_never_index
+.Trashes
+boot_out.txt
+
+# User settings - contains WiFi credentials and location
+settings.toml
